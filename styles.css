@@ -20,16 +20,23 @@ h2 {
 
 p {
   margin: 5px 100px 5px 5px;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 110%;
 }
 
 #tartalom {
-  background-image: url('dinamo.jpg');
+  background-image: url(Kep/dinamo.jpg);
   background-size: 125px 100px;
   background-repeat: repeat-y;
   background-position: right top;
   background-color: rgba(222, 222, 222);
   margin-bottom: 20px;
   padding: 40px;
+  margin-top: 40px;
+  height: 870px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 li {
@@ -40,4 +47,20 @@ li {
 a {
   text-decoration: none;
   color: black;
+}
+
+.jobbra{
+  text-align: right;
+  margin-right: 100px;
+}
+
+.eletrajz{
+  font-size: 80%;
+  background-color: rgb(111, 111, 111);
+  color: white;
+  padding: 10px;
+}
+
+a:hover{
+  color: red;
 }
